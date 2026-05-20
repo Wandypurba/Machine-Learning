@@ -1,0 +1,97 @@
+# 📘 WEEK 5 – K-Nearest Neighbors (KNN)
+
+Repository ini berisi materi dan implementasi **Supervised Learning** khususnya algoritma **K-Nearest Neighbors (KNN)** menggunakan dataset Titanic.
+
+---
+
+## 📂 Isi Folder
+
+* `Supervised_Learning_Hands_On_Classification.ipynb`
+  Notebook utama berisi implementasi KNN, preprocessing data, training, dan evaluasi model.
+
+* `titanic.csv`
+  Dataset yang digunakan untuk eksperimen klasifikasi.
+
+* `Week 5 - Introduction to classification - KNN.pptx`
+  Materi teori pengenalan classification dan algoritma KNN.
+
+* `Week 5 - Cara Kerja KNN.xlsx`
+  Ilustrasi cara kerja KNN secara manual.
+
+* `hasil_gridsearch_knn.xlsx`
+  Hasil tuning parameter menggunakan GridSearch untuk optimasi model KNN.
+
+* `README.md`
+  Dokumentasi proyek ini.
+
+---
+
+## 🎯 Tujuan Pembelajaran
+
+* Memahami konsep dasar **Supervised Learning**
+* Mempelajari algoritma **K-Nearest Neighbors (KNN)**
+* Melakukan **data preprocessing** (handling missing values, dll)
+* Mengimplementasikan KNN menggunakan Python
+* Melakukan **evaluasi model**
+* Mengoptimasi model menggunakan **GridSearch**
+
+---
+
+## ⚙️ Teknologi yang Digunakan
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib / Seaborn
+
+---
+
+## 📊 Dataset
+
+Dataset yang digunakan adalah **Titanic Dataset**, yang umum digunakan untuk problem klasifikasi:
+
+* Memprediksi apakah penumpang selamat atau tidak
+* Berdasarkan fitur seperti umur, kelas tiket, dll
+
+---
+
+## 🚀 Cara Menjalankan
+
+1. Install library yang dibutuhkan:
+
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
+   ```
+
+2. Jalankan Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+3. Buka file:
+
+   ```
+   Supervised_Learning_Hands_On_Classification.ipynb
+   ```
+
+---
+
+## 📌 Catatan
+
+* Pastikan dataset `titanic.csv` berada di folder yang sama dengan notebook
+* Lakukan preprocessing data sebelum training model
+* Gunakan GridSearch untuk mendapatkan parameter K terbaik
+
+---
+
+## 👤 Author
+
+**Wandy Putra Purba**
+
+---
+
+## 📎 Lisensi
+
+Digunakan untuk keperluan pembelajaran.
